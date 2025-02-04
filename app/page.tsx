@@ -28,7 +28,7 @@ export default function Home() {
           <input
             type="text"
             name="password"
-            placeholder="PIn :Your special Name"
+            placeholder="Pin :Your special Name"
             className="p-2 border-2 border-pink-300 rounded mb-4"
           />
           <button
