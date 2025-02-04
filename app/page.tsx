@@ -16,7 +16,7 @@ export default function Home() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const password = (e.target as HTMLFormElement).password.value;
-    if (password === correctPassword) {
+    if (String(password)?.toLowerCase() === correctPassword) {
       setIsAuthenticated(true);
     }
   };
