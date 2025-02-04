@@ -51,7 +51,7 @@ export default function Timeline() {
                  className="w-24 h-24 rounded-full object-cover"
           />
           <div>
-            <h3 className="text-xl text-black-600 font-semibold">{milestone.date}</h3>
+            <h3 className="text-xl text-gray-800 font-semibold">{milestone.date}</h3>
             <p className="text-gray-600">{milestone.description}</p>
           </div>
         </div>
