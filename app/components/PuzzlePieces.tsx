@@ -33,7 +33,7 @@ export default function PuzzlePieces({ onComplete }: { onComplete: () => void })
           <div
             key={index}
             onClick={() => handlePieceClick(index)}
-            className={`p-4 border-2 ttext-gray-800 border-dashed border-pink-300 cursor-pointer ${
+            className={`p-4 border-2 text-gray-800 border-dashed border-pink-300 cursor-pointer ${
               revealedParts[index] ? "bg-pink-100" : "bg-white"
             }`}
           >
